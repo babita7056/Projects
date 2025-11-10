@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPetCare</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <i>🐾</i> MyPetCare 
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#grooming">Grooming</a></li>
+                    <li><a href="#veterinary">Veterinary</a></li>
+                    <li><a href="#tips">Pet Care Tips</a></li>
+                    <li><a href="#appointment">Book Appointment</a></li>
+                </ul>
+            </nav>
+            <a href="#signin-popup" class="signin-btn">Sign In</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <h1>Premium Care for Your Pets</h1>
+            <p>We provide comprehensive pet care services including grooming, veterinary care, and boarding to keep your pets healthy and happy.</p>
+            <a href="#appointment" class="cta-btn">Book an Appointment</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Services</h2>
+                <p>We offer a wide range of services to meet all your pet's needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-img" style="background-image: url('https://media.istockphoto.com/id/2187149127/photo/prinia-bird.jpg?s=612x612&w=0&k=20&c=U3StMIya7LP9dtGvEC0B2ACPcSwm0bySr1j00s0Syo8=');"></div>
+                    <div class="service-content">
+                        <h3>Pet Grooming</h3>
+                        <p>Professional grooming services to keep your pet looking and feeling their best.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img" style="background-image: url('https://media.istockphoto.com/id/1336021035/photo/black-and-white-color-cat-looking-at-camera-curiosity.jpg?s=612x612&w=0&k=20&c=AJ_iL-qizme2a0s3UYJjqVxRaD_edlwbYykLdocQ7bE=');"></div>
+                    <div class="service-content">
+                        <h3>Veterinary Care</h3>
+                        <p>Comprehensive medical services to keep your pet healthy and happy.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img" style="background-image: url('https://media.istockphoto.com/id/1808810198/photo/fluffy-pembroke-welsh-corgi-puppy-sits-on-a-meadow.webp?a=1&b=1&s=612x612&w=0&k=20&c=6M73V3EnjK5QzDx-lUqdho_V-x5A2wxvj8l5sHmHnxI=');"></div>
+                    <div class="service-content">
+                        <h3>Pet Boarding</h3>
+                        <p>Safe and comfortable boarding facilities for when you're away.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img" style="background-image: url('https://images.unsplash.com/photo-1591561582301-7ce6588cc286?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cmFiYml0fGVufDB8fDB8fHww');"></div>
+                    <div class="service-content">
+                        <h3>Training</h3>
+                        <p>Professional training programs to help your pet learn good behavior.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Grooming Packages -->
+    <section class="section" id="grooming">
+        <div class="container">
+            <div class="section-title">
+                <h2>Grooming Packages</h2>
+                <p>Choose from our selection of grooming packages designed for different needs</p>
+            </div>
+            
+            <table class="pricing-table">
+                <thead>
+                    <tr>
+                        <th>Service</th>
+                        <th>Basic Package</th>
+                        <th>Premium Package</th>
+                        <th>Deluxe Package</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="package-name">Bath & Brush</td>
+                        <td>✓</td>
+                        <td>✓</td>
+                        <td>✓</td>
+                    </tr>
+                    <tr>
+                        <td class="package-name">Haircut & Styling</td>
+                        <td>-</td>
+                        <td>✓</td>
+                        <td>✓</td>
+                    </tr>
+                    <tr>
+                        <td class="package-name">Nail Trimming</td>
+                        <td>✓</td>
+                        <td>✓</td>
+                        <td>✓</td>
+                    </tr>
+                    <tr>
+                        <td class="package-name">Ear Cleaning</td>
+                        <td>-</td>
+                        <td>✓</td>
+                        <td>✓</td>
+                    </tr>
+                    <tr>
+                        <td class="package-name">Teeth Brushing</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>✓</td>
+                    </tr>
+                    <tr>
+                        <td class="package-name">Skin Treatment</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>✓</td>
+                    </tr>
+                    <tr>
+                        <td class="package-name">Price</td>
+                        <td class="price">1500</td>
+                        <td class="price">2000</td>
+                        <td class="price">3000</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <div class="addons">
+                <h3 class="section-title">Add-On Services</h3>
+                <div class="addons-grid">
+                    <div class="addon-card">
+                        <h4>Flea & Tick Treatment</h4>
+                        <p class="addon-price">500</p>
+                    </div>
+                    <div class="addon-card">
+                        <h4>De-shedding Treatment</h4>
+                        <p class="addon-price">600</p>
+                    </div>
+                    <div class="addon-card">
+                        <h4>Pawdicure</h4>
+                        <p class="addon-price">400</p>
+                    </div>
+                    <div class="addon-card">
+                        <h4>Teeth Cleaning</h4>
+                        <p class="addon-price">300</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Veterinary Information -->
+    <section class="section" id="veterinary">
+        <div class="container">
+            <div class="section-title">
+                <h2>Veterinary Services</h2>
+                <p>Comprehensive healthcare for your beloved pets</p>
+            </div>
+            
+            <div class="vet-info">
+                <div class="vet-card">
+                    <h3>Preventive Care</h3>
+                    <p>Regular check-ups, vaccinations, and preventive treatments to keep your pet healthy and prevent diseases.</p>
+                    <ul>
+                        <li>Annual wellness exams</li>
+                        <li>Vaccinations</li>
+                        <li>Parasite prevention</li>
+                        <li>Nutritional counseling</li>
+                    </ul>
+                </div>
+                <div class="vet-card">
+                    <h3>Medical Services</h3>
+                    <p>Diagnosis and treatment of illnesses and injuries to restore your pet's health.</p>
+                    <ul>
+                        <li>Diagnostic testing</li>
+                        <li>Internal medicine</li>
+                        <li>Surgery</li>
+                        <li>Dental care</li>
+                    </ul>
+                </div>
+                <div class="vet-card">
+                    <h3>Emergency Care</h3>
+                    <p>24/7 emergency services for urgent medical situations when your pet needs immediate attention.</p>
+                    <ul>
+                        <li>Emergency surgery</li>
+                        <li>Critical care</li>
+                        <li>Poison control</li>
+                        <li>Trauma treatment</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pet Care Tips -->
+    <section class="section" id="tips">
+        <div class="container">
+            <div class="section-title">
+                <h2>Pet Care Tips</h2>
+                <p>Helpful advice to keep your pet healthy and happy</p>
+            </div>
+            
+            <div class="tips-grid">
+                <div class="tip-card">
+                    <h3>Nutrition</h3>
+                    <p>Feed your pet a balanced diet appropriate for their age, size, and breed. Always provide fresh water and avoid feeding table scraps.</p>
+                </div>
+                <div class="tip-card">
+                    <h3>Exercise</h3>
+                    <p>Regular exercise is essential for your pet's physical and mental health. Tailor activities to your pet's energy level and abilities.</p>
+                </div>
+                <div class="tip-card">
+                    <h3>Grooming</h3>
+                    <p>Regular grooming keeps your pet's coat healthy, reduces shedding, and allows you to check for skin issues or parasites.</p>
+                </div>
+                <div class="tip-card">
+                    <h3>Training</h3>
+                    <p>Positive reinforcement training helps build a strong bond with your pet and encourages good behavior.</p>
+                </div>
+                <div class="tip-card">
+                    <h3>Veterinary Care</h3>
+                    <p>Regular vet check-ups are crucial for preventive care and early detection of health issues.</p>
+                </div>
+                <div class="tip-card">
+                    <h3>Safety</h3>
+                    <p>Pet-proof your home, use proper identification, and keep toxic substances out of reach to ensure your pet's safety.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointment Form -->
+    <section class="section appointment-section" id="appointment">
+        <div class="container">
+            <div class="section-title">
+                <h2>Book an Appointment</h2>
+                <p>Fill out the form below to schedule your pet's appointment</p>
+            </div>
+            
+            <div class="form-container">
+                <form id="appointment-form">
+                    <h3>Pet Information</h3>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="pet-name">Pet Name *</label>
+                            <input type="text" id="pet-name" name="pet-name" required placeholder="Enter your pet's name">
+                            <div class="error-message">Please enter your pet's name</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="pet-type">Pet Type *</label>
+                            <select id="pet-type" name="pet-type" required>
+                                <option value="">Select pet type</option>
+                                <option value="dog">Dog</option>
+                                <option value="cat">Cat</option>
+                                <option value="bird">Bird</option>
+                                <option value="rabbit">Rabbit</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <div class="error-message">Please select your pet type</div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="pet-breed">Breed</label>
+                            <input type="text" id="pet-breed" name="pet-breed" placeholder="Enter breed">
+                        </div>
+                        <div class="form-group">
+                            <label for="pet-age">Age</label>
+                            <input type="number" id="pet-age" name="pet-age" min="0" max="30" placeholder="Age in years">
+                        </div>
+                    </div>
+                    
+                    <h3>Owner Information</h3>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="owner-name">Full Name *</label>
+                            <input type="text" id="owner-name" name="owner-name" required placeholder="Enter your full name"
+                             pattern="[a-zA-Z\s]+" maxlength="50">
+                            <div class="error-message">Name should contain only letters and spaces (no numbers or symbols).</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="owner-phone">Phone Number *</label>
+                            <input type="tel" id="owner-phone" name="owner-phone" required placeholder="Enter 10 digit phone number"
+                            pattern="[0-9]{10}" maxlength="10">
+                            <div class="error-message">Please enter a valid phone number</div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="owner-email">Email Address *</label>
+                            <input type="email" id="owner-email" name="owner-email" required placeholder="Enter your email">
+                            <div class="error-message">Please enter a valid email address</div>
+                        </div>
+                    </div>
+                    
+                    <h3>Service Requirements</h3>
+                    <div class="form-group">
+                        <label for="service-type">Service Type *</label>
+                        <select id="service-type" name="service-type" required>
+                            <option value="">Select service</option>
+                            <option value="grooming">Grooming</option>
+                            <option value="veterinary">Veterinary Check-up</option>
+                            <option value="boarding">Boarding</option>
+                            <option value="training">Training</option>
+                            <option value="emergency">Emergency Care</option>
+                        </select>
+                        <div class="error-message">Please select a service type</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="preferred-date">Preferred Date *</label>
+                        <input type="date" id="preferred-date" name="preferred-date" required>
+                        <div class="error-message">Please select a date</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="preferred-time">Preferred Time</label>
+                        <select id="preferred-time" name="preferred-time">
+                            <option value="">Select time</option>
+                            <option value="morning">Morning (9 AM - 12 PM)</option>
+                            <option value="afternoon">Afternoon (12 PM - 4 PM)</option>
+                            <option value="evening">Evening (4 PM - 7 PM)</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="special-requests">Special Requests or Notes</label>
+                        <textarea id="special-requests" name="special-requests" rows="4" placeholder="Any special requirements or notes about your pet"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Book Appointment</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About MyPetCare</h3>
+                    <p>Providing premium care for your beloved pets since 2010.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#grooming">Grooming</a></li>
+                        <li><a href="#veterinary">Veterinary</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li>123 Pet Care Avenue</li>
+                        <li>Anytown, India 12345</li>
+                        <li>Phone: (+91) 2210987047</li>
+                        <li>Email: PetCare24@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Business Hours</h3>
+                    <ul>
+                        <li>Monday - Friday: 8 AM - 7 PM</li>
+                        <li>Saturday: 9 AM - 5 PM</li>
+                        <li>Sunday: 10 AM - 4 PM</li>
+                        <li>Emergency: 24/7</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Pet Care Services. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sign-in Popup -->
+    <div class="popup-overlay" id="signin-popup">
+        <div class="popup-content">
+            <a href="#" class="popup-close">&times;</a>
+            <h2 class="popup-title">Sign In</h2>
+            <form class="popup-form">
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required placeholder="Enter your password">
+                </div>
+                <button type="submit" class="popup-btn">Sign In</button>
+                <div class="popup-links">
+                    <a href="#">Forgot Password?</a> | <a href="#">Create Account</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

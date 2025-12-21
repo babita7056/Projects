@@ -1,6 +1,6 @@
-# 🌐 My Website
+# 🌐 MyPetCare
 
-🚀 Click the link below to visit my website:
+🚀 Click the link below to visit MyPetCare's website:
 
 ## 👉 [Visit My Website](https://babita7056.github.io/Projects/Project/index.html)
 
